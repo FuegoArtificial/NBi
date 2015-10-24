@@ -74,6 +74,7 @@
     <Compile Include="Builder\ExecutionMatchPatternBuilder.cs" />
     <Compile Include="Builder\ExecutionEvaluateRowsBuilder.cs" />
     <Compile Include="Builder\ITestCaseBuilderChooser.cs" />
+    <Compile Include="Builder\StructureMatchPatternBuilder.cs" />
     <Compile Include="Builder\MembersMatchPatternBuilder.cs" />
     <Compile Include="Builder\MetadataDiscoveryRequestBuilder.cs" />
     <Compile Include="Builder\MembersSubsetOfBuilder.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="Structure\AbstractStructureConstraint.cs" />
     <Compile Include="Structure\EquivalentToConstraint.cs" />
     <Compile Include="Structure\ContainConstraint.cs" />
+    <Compile Include="Structure\MatchPatternConstraint.cs" />
     <Compile Include="Structure\SubsetOfConstraint.cs" />
     <Compile Include="Structure\LinkedToConstraint.cs" />
     <Compile Include="Structure\DescriptionStructureHelper.cs" />

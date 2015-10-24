@@ -51,6 +51,7 @@ namespace NBi.NUnit
 			Register(typeof(StructureXml), typeof(SubsetOfXml), new StructureSubsetOfBuilder());
 			Register(typeof(StructureXml), typeof(ExistsXml), new StructureExistsBuilder());
 			Register(typeof(StructureXml), typeof(LinkedToXml), new StructureLinkedToBuilder());
+            Register(typeof(StructureXml), typeof(MatchPatternXml), new StructureMatchPatternBuilder());
 		}
 
 		/// <summary>
